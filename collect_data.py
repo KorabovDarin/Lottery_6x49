@@ -10,20 +10,21 @@ class Lottery:
 
     It collects data for 6/49 Bulgarian Lottery History.
 
-    1. Please edit executable_path with your the newest version of
-    chromedriver.exe depending on your current version of Chrome.
+    Resources: https://bgtoto.com/6ot49_arhiv.php
 
-    You can check your Chrome version here:
-    https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have
+    Tips & Tricks
 
-    You can download chromedriver.exe here:
-    https://chromedriver.chromium.org/downloads
+    Edit executable_path with the location of chromedriver.exe on your system.
 
-    Your current version of Chrome and chromedriver.exe must match for the
-    script to run properly.
+    Install the newest version of chromedriver.exe depending on your current version of Chrome.
 
-    2. You can edit start_year and end_year depending on the selection
-    you want to make.
+    You can check your Chrome version here: https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have
+
+    You can download chromedriver.exe here: https://chromedriver.chromium.org/downloads
+
+    Your current version of Chrome and chromedriver.exe must match for the script to run properly.
+
+    You can edit start_year and end_year depending on the selection you want to make.
 
     """
     executable_path = "D://chromedriver.exe"
