@@ -22,4 +22,4 @@ Your current version of Chrome and chromedriver.exe must match for the script to
 You can edit start_year and end_year depending on the selection you want to make.
 
 The toto_6x49.txt file contains all records from 1959 to 2020. It saves each record on a new line in the following format:
-<year>,<lottery drawing number>, <the 6 winning numbers>
+< year >,< lottery drawing number >, <the 6 winning numbers>
