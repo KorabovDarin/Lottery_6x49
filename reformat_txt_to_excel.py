@@ -11,6 +11,7 @@ numbers_list = []
 
 with open("toto_6x49.txt") as f:
     for f in f.readlines():
+        f = f.strip('\n').strip()
         year = f.split(",")[0]
         id = f.split(",")[1]
         winning_numbers = ",".join(f.split(",")[2:])
